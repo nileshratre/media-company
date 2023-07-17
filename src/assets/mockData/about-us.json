@@ -1,0 +1,23 @@
+[
+    {
+        "name": "Jane Doe",
+        "designation": "CEO & Founder",
+        "desc": "Some text that describes me lorem ipsum ipsum lorem",
+        "email": "jane@example.com",
+        "profile": "assets/images/avatar.png"
+    },
+    {
+        "name": "Mike Ross",
+        "designation": "Art Director",
+        "desc": "Some text that describes me lorem ipsum ipsum lorem",
+        "email": "mike@example.com",
+        "profile": ""
+    },
+    {
+        "name": "Jone Doe",
+        "designation": "Designer",
+        "desc": "Some text that describes me lorem ipsum ipsum lorem",
+        "email": "jone@example.com",
+        "profile": "assets/images/avatar.png"
+    }
+]

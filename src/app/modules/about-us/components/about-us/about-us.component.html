@@ -1,0 +1,28 @@
+<div class="app-about-us p-3">
+    <div class="about-section">
+        <h1>About Us Page</h1>
+        <p>Some text about who we are and what we do.</p>
+        <p>Resize the browser window to see that this page is responsive by the way.</p>
+    </div>
+    
+    <h2 style="text-align:center">Our Team</h2>
+    
+    <div class="row">
+        <ng-container *ngFor="let item of aboutUsList">
+            <div class="col-md">
+                <div class="card">
+                    <img 
+                        [src]="item?.profile ? item?.profile :'assets/images/avatar.png'" 
+                        [alt]="item?.profile" width="100%">
+                    <div class="container">
+                        <h2>{{item?.name}}</h2>
+                        <p class="title">{{item.designation}}</p>
+                        <p>{{item.desc}}</p>
+                        <p>{{item.email}}</p>
+                        <p><button class="btn btn-primary">Contact</button></p>
+                    </div>
+                </div>
+            </div>
+        </ng-container>
+    </div>
+  </div>

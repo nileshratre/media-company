@@ -1,0 +1,25 @@
+[
+    {
+        "id": 1,
+        "title": "Home",
+        "show": true,
+        "routerLink": "home"
+    },
+    {
+        "id": 2,
+        "title": "Gallery",
+        "show": true,
+        "routerLink": "gallery"
+    },
+    {
+        "id": 3,
+        "title": "About us",
+        "show": true,
+        "routerLink": "about-us"
+    },
+    {
+        "id": 4,
+        "title": "Login",
+        "show": true
+    }
+]

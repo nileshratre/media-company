@@ -1,0 +1,10 @@
+.app-header {
+    #navbarText {
+        flex: initial;
+    }
+
+    .nav-link.router-link-active {
+        color: #ffffff;
+        font-weight: bold;
+    }
+}

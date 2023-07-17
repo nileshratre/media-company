@@ -1,0 +1,36 @@
+
+<div class="app-home p-3">
+    <div class="row">
+        <div class="col-md-12">
+            <div class="home-banner">
+                <div class="container">
+                  <h1 class="title-color">Home</h1>
+                </div>
+              </div>
+        </div>
+
+        <div class="col-md-12">
+            <p class="p-5">
+                Lorem ipsum dolor sit amet consectetur adipisicing elit. Molestiae dolore asperiores sunt facilis, sequi, impedit sed dicta et laborum quae eum vero voluptatum optio delectus totam praesentium voluptatibus repudiandae velit.
+    
+                Lorem ipsum dolor sit amet consectetur adipisicing elit. Laboriosam, soluta praesentium. Temporibus soluta, sapiente aliquid impedit est molestiae sunt iste laudantium quidem hic minus odit aliquam eos ipsa deserunt earum.
+    
+                Lorem ipsum dolor sit amet consectetur, adipisicing elit. Saepe, aperiam. Est optio maxime, minima molestias ullam, numquam quisquam voluptatum sed fuga magni, consequuntur ut quo corrupti voluptatibus inventore facilis ipsa.
+            </p>
+        </div>
+    </div>
+
+    <div class="row">
+        <div class="col-md p-5">
+            <tag-input [ngModel]="[]"
+                   [onlyFromAutocomplete]="true">
+                <tag-input-dropdown 
+                    [showDropdownIfEmpty]="true"
+                    [autocompleteItems]="userList"
+                    [identifyBy]="'email'" 
+                    [displayBy]="'userName'"
+                ></tag-input-dropdown>
+            </tag-input>
+        </div>
+    </div>
+</div>

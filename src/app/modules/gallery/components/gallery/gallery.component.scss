@@ -1,0 +1,37 @@
+.app-gallery {
+    border-color: #f6c780;
+    img {
+      height: 300px;
+      width: 100%;
+    }
+    .bottom-left {
+      position: absolute;
+      bottom: 15px;
+      left: 16px;
+      color: white;
+      font-size: 12px;
+  
+      hr {
+        width: 13rem;
+        border-width: 3px;
+        border-color: #d5814f;
+      }
+      a {
+        color: #f6c780;
+        i {
+          font-size: 0.5cm;
+        }
+      }
+    }
+  
+    .bottom-right {
+      position: absolute;
+      bottom: 15px;
+      right: 16px;
+      font-size: 12px;
+      a {
+        color: white;
+      }
+    }
+  }
+  
